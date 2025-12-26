@@ -1,13 +1,18 @@
-# 📌 Pulse – Module Extraction AI Agent
+📌 Module Extraction AI Agent
 
-## 🧰 How to Run
-```
-pip install -r requirements.txt
-streamlit run app.py
-```
+This is a Streamlit-based tool that extracts modules and submodules from documentation websites.
+You enter a URL → the app crawls the website → analyzes the text using AI → and returns a structured JSON output.
 
-## 🐳 Docker
-```
-docker build -t pulse-ai .
-docker run -p 8501:8501 pulse-ai
-```
+🚀 Features
+
+Crawl documentation websites
+
+Extract and summarize modules & submodules
+
+View output directly in UI
+
+Save results as sample_output.json
+
+🧰 Tech Used
+
+Python, Streamlit, Requests, BeautifulSoup, OpenAI API
